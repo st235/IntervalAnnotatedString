@@ -1,4 +1,4 @@
-package com.justeattakeaway.intervalannotatedstring.sampleapp.compose.theme
+package com.github.st235.intervalannotatedstring.sampleapp.compose.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

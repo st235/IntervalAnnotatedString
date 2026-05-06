@@ -2,7 +2,7 @@
 
 # Interval Annotated String
 
-![Maven Central Version](https://img.shields.io/maven-central/v/com.justeattakeaway/interval-annotated-string)
+![Maven Central Version](https://img.shields.io/maven-central/v/com.github.st235/interval-annotated-string)
 
 A tiny Android utility library that simplifies the process of creating and managing embedded
 links and styles within a localised text block. It provides a clean, non-disruptive syntax that 
@@ -33,7 +33,7 @@ Add the following to your module's build file.
 
 ```kotlin
 dependencies {
-    implementation("com.justeattakeaway:interval-annotated-string:x.x.x")
+    implementation("com.github.st235:interval-annotated-string:x.x.x")
 }
 ```
 
@@ -41,7 +41,7 @@ dependencies {
 
 ```groovy
 dependencies {
-    implementation 'com.justeattakeaway:interval-annotated-string:x.x.x'
+    implementation 'com.github.st235:interval-annotated-string:x.x.x'
 }
 ```
 
@@ -97,7 +97,7 @@ The library provides several Compose-friendly factory methods to create an **`In
 
 #### Transformation
 
-The [`IntervalAnnotatedString`](./intervalannotatedstring/src/main/java/com/justeattakeaway/intervalannotatedstring/IntervalAnnotatedString.kt) 
+The [`IntervalAnnotatedString`](./intervalannotatedstring/src/main/java/com/github/st235/intervalannotatedstring/IntervalAnnotatedString.kt) 
 class provides the core functionality through its `transform` method.
 
 ```kotlin

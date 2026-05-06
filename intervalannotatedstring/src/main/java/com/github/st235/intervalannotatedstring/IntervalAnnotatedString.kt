@@ -1,9 +1,9 @@
-package com.justeattakeaway.intervalannotatedstring
+package com.github.st235.intervalannotatedstring
 
 import androidx.annotation.AnyThread
 import androidx.annotation.CheckResult
-import com.justeattakeaway.intervalannotatedstring.InlineIntervalSyntaxParser.EmptyInlineTextException
-import com.justeattakeaway.intervalannotatedstring.InlineIntervalSyntaxParser.NoIdException
+import com.github.st235.intervalannotatedstring.InlineIntervalSyntaxParser.EmptyInlineTextException
+import com.github.st235.intervalannotatedstring.InlineIntervalSyntaxParser.NoIdException
 
 /**
  * Builds a target rendering string from the cleared version of the annotated string.

@@ -1,6 +1,10 @@
-package com.justeattakeaway.intervalannotatedstring
+package com.github.intervalannotatedstring
 
 import android.annotation.SuppressLint
+import com.github.st235.intervalannotatedstring.InlineIntervalSyntaxParser
+import com.github.st235.intervalannotatedstring.IntervalAnnotatedString
+import com.github.st235.intervalannotatedstring.OnApplyIntervalTransformation
+import com.github.st235.intervalannotatedstring.OnTransformText
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.mockkObject

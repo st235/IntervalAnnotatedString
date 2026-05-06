@@ -1,9 +1,9 @@
+import org.gradle.internal.extensions.core.extra
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.plugin.extraProperties
 
 plugins {
     alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.detekt)
     alias(libs.plugins.dependency.guard)
@@ -17,11 +17,11 @@ dependencyGuard {
 }
 
 android {
-    namespace = "com.justeattakeaway.intervalannotatedstring"
-    compileSdk = 36
+    namespace = "com.github.st235.intervalannotatedstring"
+    compileSdk = 37
 
     defaultConfig {
-        version = extraProperties.get("publish.versionName").toString()
+        version = project.extra.get("publish.versionName").toString()
 
         minSdk = 21
         consumerProguardFiles("consumer-rules.pro")
@@ -93,15 +93,15 @@ publishing {
 
                 developers {
                     developer {
-                        id = "justeattakeaway"
-                        name = "Just Eat Takeaway.com"
-                        url = "https://github.com/justeattakeaway"
-                    }
-
-                    developer {
                         id = "st235"
                         name = "Alex Dadukin"
                         url = "https://github.com/st235"
+                    }
+
+                    developer {
+                        id = "justeattakeaway"
+                        name = "Just Eat Takeaway.com"
+                        url = "https://github.com/justeattakeaway"
                     }
 
                     developer {

@@ -1,4 +1,4 @@
-package com.justeattakeaway.intervalannotatedstring.sampleapp
+package com.github.st235.intervalannotatedstring.sampleapp
 
 import android.app.Application
 import android.content.Context

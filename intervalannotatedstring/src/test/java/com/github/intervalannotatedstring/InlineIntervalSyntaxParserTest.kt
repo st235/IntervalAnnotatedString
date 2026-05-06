@@ -1,5 +1,6 @@
-package com.justeattakeaway.intervalannotatedstring
+package com.github.intervalannotatedstring
 
+import com.github.st235.intervalannotatedstring.InlineIntervalSyntaxParser
 import junitparams.JUnitParamsRunner
 import junitparams.Parameters
 import org.junit.Assert.assertEquals
