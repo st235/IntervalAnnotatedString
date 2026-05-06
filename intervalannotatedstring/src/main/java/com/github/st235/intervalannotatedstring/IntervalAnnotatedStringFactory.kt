@@ -1,4 +1,4 @@
-package com.justeattakeaway.intervalannotatedstring
+package com.github.st235.intervalannotatedstring
 
 import androidx.annotation.PluralsRes
 import androidx.annotation.StringRes

@@ -97,7 +97,7 @@ The library provides several Compose-friendly factory methods to create an **`In
 
 #### Transformation
 
-The [`IntervalAnnotatedString`](./intervalannotatedstring/src/main/java/com/justeattakeaway/intervalannotatedstring/IntervalAnnotatedString.kt) 
+The [`IntervalAnnotatedString`](./intervalannotatedstring/src/main/java/com/github/intervalannotatedstring/IntervalAnnotatedString.kt) 
 class provides the core functionality through its `transform` method.
 
 ```kotlin
